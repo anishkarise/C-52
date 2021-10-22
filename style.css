@@ -1,0 +1,46 @@
+h1{
+    color:khaki;
+    margin-bottom:  50px;
+    margin-left: 20px;
+    position: relative;
+}
+*{
+
+    background-color:#B68E8E;
+    color:cyan;
+}
+
+.header{
+    background-color:#A05CA0;
+    display:flex;
+    justify-content: space-between;
+    margin:45px;
+}
+.iteam{
+display:flex;
+justify-content: space-evenly;
+padding: 100px;
+
+}
+
+.menu{
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.menu p{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.menu:hover p{
+opacity: 1;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
